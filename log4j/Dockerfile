@@ -1,4 +1,4 @@
-FROM sergeyzh/tomcat8:base
+FROM sugdyzhekov/tomcat8:jdk7
 
 MAINTAINER Sergey Zhukov, sergey@jetbrains.com
 
