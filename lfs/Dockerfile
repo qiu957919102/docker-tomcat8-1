@@ -2,7 +2,7 @@ FROM sugdyzhekov/tomcat8-log4j:jdk7
 
 MAINTAINER Sergey Zhukov, sergey@jetbrains.com
 
-ENV LFS_VER 4.2.0
+ENV LFS_VER 4.3.1
 
 RUN wget -O /home/tomcat/apache-tomcat-current/lib/lfsappenders-${LFS_VER}.jar http://www.moonlit-software.com/logfaces/downloads/lfsappenders-${LFS_VER}.jar
 ADD lfs-config.sh /root/prerun/
